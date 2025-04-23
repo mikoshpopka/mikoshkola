@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10263"
-	"mapversion" "88"
+	"mapversion" "89"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "88"
+	"mapversion" "89"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5809,7 +5809,7 @@ world
 		side
 		{
 			"id" "3150"
-			"plane" "(1712 1664 195.572) (1712 1704 195.572) (3148 1704 195.572)"
+			"plane" "(1712 1664 196) (1712 1704 196) (3148 1704 196)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 -1 0 160] 0.25"
@@ -5820,7 +5820,7 @@ world
 		side
 		{
 			"id" "3149"
-			"plane" "(1712 1704 112) (1712 1664 112) (3148 1664 112)"
+			"plane" "(1712 1704 112.428) (1712 1664 112.428) (3148 1664 112.428)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 -1 0 160] 0.25"
@@ -5831,10 +5831,10 @@ world
 		side
 		{
 			"id" "3148"
-			"plane" "(1712 1664 112) (1712 1704 112) (1712 1704 195.572)"
+			"plane" "(1712 1664 112.428) (1712 1704 112.428) (1712 1704 196)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 1 0 -160] 0.25"
-			"vaxis" "[0 0 -1 46.2869] 0.25"
+			"vaxis" "[0 0 -1 47.9974] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5842,10 +5842,10 @@ world
 		side
 		{
 			"id" "3147"
-			"plane" "(3148 1704 112) (3148 1664 112) (3148 1664 195.572)"
+			"plane" "(3148 1704 112.428) (3148 1664 112.428) (3148 1664 196)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 1 0 -160] 0.25"
-			"vaxis" "[0 0 -1 46.2869] 0.25"
+			"vaxis" "[0 0 -1 47.9974] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5853,10 +5853,10 @@ world
 		side
 		{
 			"id" "3146"
-			"plane" "(1712 1704 112) (3148 1704 112) (3148 1704 195.572)"
+			"plane" "(1712 1704 112.428) (3148 1704 112.428) (3148 1704 196)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 1.71051] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5864,10 +5864,10 @@ world
 		side
 		{
 			"id" "3145"
-			"plane" "(3148 1664 112) (1712 1664 112) (1712 1664 195.572)"
+			"plane" "(3148 1664 112.428) (1712 1664 112.428) (1712 1664 196)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 -96] 0.25"
-			"vaxis" "[0 0 -1 46.2869] 0.25"
+			"vaxis" "[0 0 -1 47.9974] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -112344,7 +112344,7 @@ entity
 	"id" "8937"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "-134.626 785.634 -15"
+	"origin" "163 522 -15"
 	editor
 	{
 		"color" "0 255 0"
